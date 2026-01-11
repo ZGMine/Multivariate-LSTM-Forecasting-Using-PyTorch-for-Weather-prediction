@@ -24,7 +24,8 @@ Nous avons utilisé un modèle **LSTM (Long Short-Term Memory)** implémenté av
 *   **Prédiction récursive :** Pour prédire à J+30, le modèle réinjecte ses propres prédictions de J+1, J+2, etc., en entrée.
 
 ### Dataset
-lien du dataset : https://meteo.data.gouv.fr/datasets/6569b27598256cc583c917a7
+lien du dataset : https://meteo.data.gouv.fr/datasets/6569b27598256cc583c917a7 original.
+Lien du dataset utilisé pour le training et le test : https://kaggle.com/datasets/60c178d17ed4e8f86627fe8762ccfa080bee24a1daf9180e622be3911802e48a .
 Le dataset contient des attributs concernant : la position, les précipitations, le vent, l'humidité, le rayonnement, la pluie, la neige, les températures min et max, ...
 
 ## Résultats
