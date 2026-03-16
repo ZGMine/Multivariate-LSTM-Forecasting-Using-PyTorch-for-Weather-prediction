@@ -25,7 +25,7 @@ Nous avons utilisé un modèle **LSTM (Long Short-Term Memory)** implémenté av
 
 ### Dataset
 lien du dataset : https://meteo.data.gouv.fr/datasets/6569b27598256cc583c917a7 original.
-Lien du dataset utilisé pour le training et le test : https://kaggle.com/datasets/60c178d17ed4e8f86627fe8762ccfa080bee24a1daf9180e622be3911802e48a .
+Lien du dataset utilisé pour le training et le test : https://kaggle.com/datasets/f1420d24aef99ee792ec69f601de96e74accd71e7300f79f2b9ea5d7a4afd757 .
 Le dataset contient des attributs concernant : la position, les précipitations, le vent, l'humidité, le rayonnement, la pluie, la neige, les températures min et max, ...
 
 ## Résultats
