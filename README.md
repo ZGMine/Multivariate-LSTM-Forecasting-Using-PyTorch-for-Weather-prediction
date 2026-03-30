@@ -31,6 +31,8 @@ Le dataset contient des attributs concernant : la position, les précipitations,
 
 ## Résultats
 
+![Alt text](images/results.png "Prédictions")
+
 *   **Convergence & Optimisation :** Grâce au pré-chargement en VRAM et à l'augmentation des *batch sizes*, le modèle exploite pleinement le GPU. Le modèle apprend efficacement avec une perte (MSE/MAE) très faible sur les données de test.
 *   **Prédiction à J+50 :** Contrairement aux architectures naïves qui prédisent uniquement la température (entraînant une saturation rapide ou des valeurs physiquement impossibles), **notre modèle génère des courbes de température hautement cohérentes sur 50 jours**. En forçant le modèle à prédire l'état météorologique *complet* (26 variables) à chaque étape, il conserve le contexte physique nécessaire pour ne pas diverger, respectant ainsi les tendances saisonnières et les variations journalières.
 
